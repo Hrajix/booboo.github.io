@@ -1,0 +1,133 @@
+body {
+    background-image: url('background.png');
+    height: 2144px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Horni Text */
+
+.text {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+/* div na button */
+
+.butt  {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+/* BUTTON Naše Služby */
+
+.button {
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #24252a;
+    border: none;
+    color: #FFFF;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    text-align: center;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    text-align: center;
+    opacity: 1;
+    right: 0;
+  }
+  
+  .button:hover {
+    background-color: #121214;
+    width: 220px;
+  }
+
+  /* BUTTON O NÁS */ 
+
+  .button2 {
+
+    text-align: center;
+    border-radius: 15px;
+    background-color: #24252a;
+    border: none;
+    color: #FFFF;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button2 span {
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    text-align: center;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    text-align: center;
+    text-decoration: underline;
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    text-align: center;
+    opacity: 1;
+    right: 0;
+  }
+  
+  .button2:hover {
+    background-color: #121214;
+    width: 220px;
+  }
