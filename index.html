@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,4 +25,47 @@
 
     </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tlačítko pro přesun na část stránky</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        #caststranky {
+            margin-top: 1000px; /* Simuluje, že část stránky je níže */
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Moje stránka</h1>
+    <button onclick="document.getElementById('caststranky').scrollIntoView({ behavior: 'smooth' });">
+        Přesunout na část stránky
+    </button>
+    
+    <div id="caststranky">
+        <h2>Část stránky</h2>
+        <p>Toto je místo, kam tě tlačítko přesune.</p>
+    </div>
+</body>
 </html>
